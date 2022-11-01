@@ -1,4 +1,4 @@
-package Loop;
+package Numbers;
 import java.util.Scanner;
 
 public class SpecialNumberRangechk {
@@ -23,7 +23,7 @@ public class SpecialNumberRangechk {
     public static void main(String[] args) {
         int r;
         Scanner s=new Scanner(System.in);
-        System.out.println("Enter the range "+fact(5));
+        System.out.println("Enter the range ");
         r=s.nextInt();
         for (int i=1;i<=r;i++)
         {

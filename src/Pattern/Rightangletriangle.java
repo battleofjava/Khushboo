@@ -1,10 +1,10 @@
-package PatternProblems;
+package Pattern;
 
-public class leftangletriangle {
-    public static void left(int r){
-        int i,j;
+public class Rightangletriangle {
+    public static void right(int r) {
+        int i, j;
         for (i = 0; i < r; i++) {
-            for (j = i; j < r; j++) {
+            for (j = 0; j <= i; j++) {
                 System.out.print("* ");
             }
             System.out.println();
@@ -12,7 +12,7 @@ public class leftangletriangle {
     }
 
     public static void main(String[] args) {
-        int n=6;
-        left(n);
+        int n=5;
+        right(n);
     }
 }

@@ -1,4 +1,4 @@
-package Array.one;
+package Array.oneD;
 import java.util.Scanner;
 public class elementwithindexno {
     public static void main(String[] args) {

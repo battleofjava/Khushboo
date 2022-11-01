@@ -1,4 +1,4 @@
-package PatternProblems;
+package Pattern;
 public class Pyramid {
 
     public static void pattern(int r){

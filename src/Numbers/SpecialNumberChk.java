@@ -1,4 +1,4 @@
-package Loop;
+package Numbers;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class SpecialNumberChk {
         return f;
     }
     static void chk(int n){
-        int sum,temp=n;
+        int sum;
         for(sum=0;n!=0;n=n/10) {
             sum = sum + fact(n % 10);
         } if (sum==n){

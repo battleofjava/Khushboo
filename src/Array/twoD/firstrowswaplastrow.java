@@ -1,4 +1,4 @@
-package Array.two;
+package Array.twoD;
 import java.util.*;
 public class firstrowswaplastrow {
     public static void main(String kk[])
